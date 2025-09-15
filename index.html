@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Scheme Gen</title>
+</head>
+<body>
+    <div class="color-scheme-generator">
+        <div class="controls">
+            <input type="color" class="color-input" value="#F55A5A" id="colorPicker">
+            <select class="scheme-select" id="schemeType">
+                <option value="monochrome">Monochrome</option>
+                <option value="analogous">Analogous</option>
+                <option value="complementary">Complementary</option>
+                <option value="triadic">Triadic</option>
+                <option value="tetradic">Tetradic</option>
+            </select>
+            <button class="generate-btn" id="generateBtn">Get color scheme</button>
+        </div>
+        
+        <div class="color-palette" id="colorPalette">
+            <div class="color-column color-1" data-color="#F55A5A">
+                <span class="hex-code">#F55A5A</span>
+            </div>
+            <div class="color-column color-2" data-color="#2B283A">
+                <span class="hex-code">#2B283A</span>
+            </div>
+            <div class="color-column color-3" data-color="#FBF3AB">
+                <span class="hex-code">#FBF3AB</span>
+            </div>
+            <div class="color-column color-4" data-color="#AAD1B6">
+                <span class="hex-code">#AAD1B6</span>
+            </div>
+            <div class="color-column color-5" data-color="#A626D3">
+                <span class="hex-code">#A626D3</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="copy-feedback" id="copyFeedback">Color copied to clipboard!</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
