@@ -56,14 +56,6 @@ generateBtn.addEventListener('click', () => {
             console.error('Error details:', error);
             console.log('Using fallback colors...');
             
-            // Fallback colors in the same format as API response
-            const fallbackColors = [
-                { hex: { value: '#F55A5A' } },
-                { hex: { value: '#2B283A' } },
-                { hex: { value: '#FBF3AB' } },
-                { hex: { value: '#AAD1B6' } },
-                { hex: { value: '#A626D3' } }
-            ];
             renderColors(fallbackColors);
         })
         .finally(() => {
