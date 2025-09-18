@@ -177,7 +177,29 @@ body {
 
 .copy-feedback-popup.show {
     opacity: 1;
+}@media (min-width: 641px) and (max-width: 1024px) {
+    body {
+        padding: 6em 2em;
+    }
+
+    .color-palette {
+        grid-template-columns: repeat(3, 1fr);
+        height: auto;
+        gap: 15px;
+    }
+
+    .color-column {
+        height: 180px;
+        padding-bottom: 25px;
+    }
+
+    .hex-code {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
 }
+
+
 
 
 /* Responsive design */
